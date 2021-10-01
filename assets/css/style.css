@@ -6,7 +6,10 @@
 }
 .img {
     vertical-align: middle;
-    border-style: none;
+    border-style: none;   
+}
+.bg-dark {
+  background-color:black!important;
 }
 .hr.border-first {
   background-color: var(--color-primary);
@@ -35,7 +38,7 @@
     background-color: var(--color-primary);
   }
   .bg-black {
-    background-color: var(--bg-black);
+    background-color:black;
   }
   hr.border-first {
     background-color: var(--color-primary);
