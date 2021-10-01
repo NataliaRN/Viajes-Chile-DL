@@ -1,12 +1,15 @@
 .body {
-font-family: 'Cabin', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Raleway', sans-serif;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Raleway', sans-serif;
 
 }
 .img {
     vertical-align: middle;
     border-style: none;
+}
+hr.border-first {
+  background-color: var(--color-primary);
 }
 :root {
     --color-primary: #15aabf;
