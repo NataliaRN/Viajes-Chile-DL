@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Natalia Romero" />
+    <meta name="description" content="Sitio de turismo a través de Chile" />
+    <meta name="keywords" content="turismo,viajes,vacaciones" />
+    <link rel="icon" type="image/png" href="assets/img/viajes.svg" />
+    <title>Desafío Viajes Chile</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!--FONTAWSOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--GOOGLE-FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--MI ESTILO-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--JQUERY-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--BARRA-NAVEGACION-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand align-items-center d-flex" href="#">
+          <img src="assets/img/viajes.svg" width="50" alt="Logo de Suricata" />
+          <span class="h2 m-0 pl-2 font-weight-normal text-logo"
+            >Viajes Chile</span
+          >
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto text-center mb-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio"
+              >Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >Quienes Somos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#places"
+                >Destacado</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contact"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--CARROUSELL-->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- ABOUT SECTION -->
+    <section
+      class="
+        d-none d-sm-flex
+        flex-colum
+        justify-content-center
+        text-light
+        bg-dark
+        d-block-md
+      "
+      id="about"
+    >
+      <div class="container py-5">
+        <h3 class="text-center pb-3">¿Quiénes Somos?</h3>
+        <hr class="border-first" />
+        <div class="row px-2 pt-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <p
+              class="text-center bg-info h3"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Preparamos tu viaje completamente"
+            >
+              <i class="fas fa-plane"></i>
+            </p>
+            <p>
+              Praesentium dolores incidunt, recusandae corrupti Lorem ipsum
+              dolor sit amet consectetur, adipisicing elit. Explicabo iure
+              possimus accusamus expedita consequuntur quo omnis tempora, enim
+              ipsam fugit asperiores deserunt amet alias mollitia odit velit
+              beatae, animi et. Possimus fugit, officiis quas quis aut itaque
+              consequuntur optio qui quam in eos reprehenderit inventore
+              reiciendis cupiditate aliquid animi molestias natus praesentium
+              dolores incidunt, recusandae corrupti provident aperiam nostrum.
+              Aperiam, omnis eaque veniam nobis maiores repellendus! Dicta fugit
+              incidunt excepturi maiores dolor nostrum doloremque.
+            </p>
+          </div>
+          <div
+            class="
+              col-12 col-md-6 col-lg-4
+              pt-md-0 pt-4
+              d-lg-block d-flex
+              flex-column
+            "
+          >
+            <p class="order-lg-3 order-2">
+              Tempora, enim ipsam fugit asperiores deserunt Lorem ipsum dolor
+              sit amet consectetur, adipisicing elit. Explicabo iure possimus
+              accusamus expedita consequuntur quo omnis tempora, enim ipsam
+              fugit asperiores deserunt amet alias mollitia odit velit beatae,
+              animi et. Possimus fugit, officiis quas quis aut itaque
+              consequuntur optio qui quam in eos reprehenderit inventore
+              reiciendis cupiditate aliquid animi molestias natus praesentium
+              dolores incidunt, recusandae corrupti provident aperiam nostrum.
+              Aperiam, omnis eaque veniam nobis maiores repellendus! Dicta fugit
+              incidunt excepturi maiores dolor nostrum doloremque.
+            </p>
+            <p
+              class="text-center bg-info h3 order-lg-2 order-1"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Seguro de salud incluido en todos nuestros viajes"
+            >
+              <i class="fas fa-mountain ml-3"></i>
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 m-md-auto pt-lg-0 pt-4">
+            <p
+              class="text-center bg-info h3"
+              data-toggle="tooltip"
+              data-placement="left"
+              title="Rutas de viaje personalizadas a tu gusto"
+            >
+              <i class="fas fa-route ml-3"></i>
+            </p>
+            <p>
+              Aut itaque consequuntur optio qui quam in Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Explicabo iure possimus
+              accusamus expedita consequuntur quo omnis tempora, enim ipsam
+              fugit asperiores deserunt amet alias mollitia odit velit beatae,
+              animi et. Possimus fugit, officiis quas quis aut itaque
+              consequuntur optio qui quam in eos reprehenderit inventore
+              reiciendis cupiditate aliquid animi molestias natus praesentium
+              dolores incidunt, recusandae corrupti provident aperiam nostrum.
+              Aperiam, omnis eaque veniam nobis maiores repellendus! Dicta fugit
+              incidunt excepturi maiores dolor nostrum doloremque.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--CARD-SECTION-->
+    <section class="text-light bg-black" id="places">
+      <div class="container py-5">
+        <h3 class="text-center pb-3">Destacados</h3>
+        <hr class="border-first" />
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 px-2 pt-4">
+          <div class="col mb-4">
+            <div class="card text-light bg-info mb-3">
+              <img
+                src="./assets/img/card1.jpg"
+                class="card-img-top"
+                alt="Lugar exótico 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card text-ligth bg-info mb-3">
+              <img
+                src="./assets/img/card2.jpg"
+                class="card-img-top"
+                alt="Lugar exótico 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card text-light bg-info mb-3">
+              <img
+                src="./assets/img/card3.jpg"
+                class="card-img-top"
+                alt="Lugar exótico 3"
+              />
+              <div class="card-body color-first">
+                <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card text-light bg-info mb-3">
+              <img
+                src="./assets/img/card4.jpg"
+                class="card-img-top"
+                alt="Lugar exótico 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--SECCION CONTACTO-->
+    <section class="bg-black" id="contact">
+      <div class="container py-5">
+        <h3 class="text-center pb-3 text-white">Contacto</h3>
+        <hr class="border-first" />
+        <div
+          class="typeform-widget pt-3 px-2"
+          data-url="https://form.typeform.com/to/IwlLDV0T?typeform-medium=embed-snippet"
+          style="width: 100%; height: 500px"
+        ></div>
+        <script>
+          (function () {
+            var qs,
+              js,
+              q,
+              s,
+              d = document,
+              gi = d.getElementById,
+              ce = d.createElement,
+              gt = d.getElementsByTagName,
+              id = "typef_orm",
+              b = "https://embed.typeform.com/";
+            if (!gi.call(d, id)) {
+              js = ce.call(d, "script");
+              js.id = id;
+              js.src = b + "embed.js";
+              q = gt.call(d, "script")[0];
+              q.parentNode.insertBefore(js, q);
+            }
+          })();
+        </script>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer
+      class="
+        d-flex
+        flex-column flex-sm-row
+        justify-content-center
+        align-items-center
+        bg-info bg-gradient
+      "
+    >
+      <h3
+        class="
+          col-sm
+          d-flex
+          flex-column flex-sm-row
+          justify-content-center
+          align-items-center
+          text-white
+          my-3
+          mx-5
+          titulo
+        "
+      >
+        Viajes Chile<a
+          href="https://viajeschile.cl"
+          target="_blank"
+          class="text-info"
+        ></a>
+      </h3>
+      <div
+        class="
+          col-sm
+          d-flex
+          flex-row
+          justify-content-center
+          align-items-center
+          my-3
+        "
+      >
+        <a href="https://github.com/Rockelarre" target="_blank"
+          ><i class="fab fa-github-square fa-2x text-white mx-2"></i
+        ></a>
+        <a href="https://www.facebook.com/Leogrises" target="_blank"
+          ><i class="fab fa-facebook-square text-white fa-2x mx-2"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/Leogris" target="_blank"
+          ><i class="fab fa-linkedin fa-2x text-white mx-2"></i
+        ></a>
+      </div>
+    </footer>
+
+    <!-- Bootstrap y Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <!--MI JS-->
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
