@@ -4,6 +4,13 @@
   font-family: 'Raleway', sans-serif;
 
 }
+#carrouselExampleControl {
+  @media (min-width: 1200px) {
+    .container {
+    width: 100%;
+    }
+    }
+}
 .img {
     vertical-align: middle;
     border-style: none;
@@ -11,7 +18,10 @@
 .hr.border-first {
   background-color: var(--color-primary);
 }
+
 .img-first, .img-second, .img-third{
+  position: absolute;
+  width: 100%;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -37,7 +47,6 @@
       font-size: 28px;
     }
   }
-  
   .img-first {
     background-image: url(../img/carousel1.jpg);
   }
