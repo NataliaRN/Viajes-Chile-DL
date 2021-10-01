@@ -11,7 +11,13 @@
 .hr.border-first {
   background-color: var(--color-primary);
 }
-
+.carousel-inner::after {
+  width: max-content;
+  height: max-content;
+  display: block;
+  clear: both;
+  content: "";
+}
 .img-first, .img-second, .img-third{
   position: absolute;
   width: 100%;
