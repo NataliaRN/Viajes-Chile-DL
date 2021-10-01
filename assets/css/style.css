@@ -4,13 +4,6 @@
   font-family: 'Raleway', sans-serif;
 
 }
-#carrouselExampleControl {
-  @media (min-width: 1200px) {
-    .container {
-    width: 100%;
-    }
-    }
-}
 .img {
     vertical-align: middle;
     border-style: none;
