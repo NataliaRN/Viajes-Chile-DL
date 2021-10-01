@@ -8,8 +8,14 @@
     vertical-align: middle;
     border-style: none;
 }
-hr.border-first {
+.hr.border-first {
   background-color: var(--color-primary);
+}
+.img-first, .img-second, .img-third{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 :root {
     --color-primary: #15aabf;
@@ -31,14 +37,7 @@ hr.border-first {
       font-size: 28px;
     }
   }
-  .img-first,
-  .img-second,
-  .img-third {
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
+  
   .img-first {
     background-image: url(../img/carousel1.jpg);
   }
