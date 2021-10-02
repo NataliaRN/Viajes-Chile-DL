@@ -1,4 +1,5 @@
 .body {
+  height: 100%;
   font-family: 'Cabin', sans-serif;
   font-family: 'Lobster', cursive;
   font-family: 'Raleway', sans-serif;
@@ -13,6 +14,9 @@
 }
 .hr.border-first {
   background-color: var(--color-primary);
+}
+.carousel{
+  height: 100%;
 }
 .carousel-inner::after {
   width: max-content;
